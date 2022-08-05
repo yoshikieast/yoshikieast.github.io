@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /*枠線*/
 }
 
 body {
@@ -11,14 +11,14 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+.container { /*class名にドットを付ける*/
+  width: 100%; /*横幅*/
+  padding: 0 15px; /*余白: 上下px　左右px*/
+  margin: 0 auto; /*外側の余白: 上下px 左右px*/
 }
 
 .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 180px 0 100px 0; /*余白：上px 右px 下px 左px*/
   background-image: url(top.png);
   background-size: cover;
   color: white;
@@ -46,7 +46,7 @@ a {
 }
 
 .signup {
-  background-color: #239b76;
+  background-color: #239b76; /*背景色*/
 }
 
 .facebook {
@@ -63,7 +63,7 @@ a {
   color: white;
   display: inline-block;
   opacity: 0.8;
-  border-radius: 4px;
+  border-radius: 4px; /*枠線*/
   text-align: center;
 }
 
@@ -76,7 +76,7 @@ a {
 }
 
 header {
-  height: 65px;
+  height: 65px; /*高さ*/
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
@@ -90,7 +90,7 @@ header {
 }
 
 .header-left {
-  float: left;
+  float: left; /*要素が左に横並びになる*/
 }
 
 .header-right {
@@ -269,3 +269,15 @@ footer {
     width: 100%;
   }
 }
+
+/*
+  li{
+    list-style: none;
+    リストのマークをなくす
+  }
+
+  .class{
+    border: 太さpx 種類solid 色; //枠線
+    border-bottom: 太さpx 種類soild 色; // 下部に枠線
+  }
+*/
